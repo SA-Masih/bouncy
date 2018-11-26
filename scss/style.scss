@@ -1,1 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+.bor-b:active {
+    border-bottom: 1px solid #8ddac9;
+    font-size: 16px;
+}
+.bor-b {
+    padding-bottom: 5px;
+}
