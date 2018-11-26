@@ -1,8 +1,23 @@
+$light:#f3f3f3;
+$spacer: 1rem;
+$spacers: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3), 50: 50px, 100: 100px, 125: 125px, 150: 150px), $spacers);
 @import "../node_modules/bootstrap/scss/bootstrap";
 .bor-b:active {
     border-bottom: 1px solid #8ddac9;
     font-size: 16px;
 }
-.bor-b {
-    padding-bottom: 5px;
+.carousel-indicators li {
+	width: 8px;
+	height:8px;
+	border: 1px solid #19bd9a;
+	border-radius: 50px;
+	background: #FFF;
 }
+
+.carousel-control-prev-icon{
+	color: red;
+}
+
+
