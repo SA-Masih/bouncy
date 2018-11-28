@@ -8721,3 +8721,49 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 30px;
   background: none;
   border: 1px solid #FFF; }
+
+.all {
+  background-image: url("../images/socialmedia.svg");
+  display: inline-block;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  background-size: 200px; }
+
+.twitter {
+  background-position: 157px; }
+
+.linkedIn {
+  background-position: 115px; }
+
+.instagram {
+  background-position: 73px; }
+
+.v {
+  background-position: 31px; }
+
+header nav {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; }
+
+@-webkit-keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0; }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
