@@ -7947,5 +7947,10 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50px;
   background: #FFF; }
 
-.carousel-control-prev-icon {
-  color: red; }
+.carousel-indicators .active {
+  background: #19bd9a; }
+
+.btn {
+  border-radius: 30px;
+  background: none;
+  border: 1px solid #FFF; }

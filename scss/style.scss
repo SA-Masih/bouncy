@@ -9,15 +9,17 @@ $spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 
     font-size: 16px;
 }
 .carousel-indicators li {
-	width: 8px;
-	height:8px;
-	border: 1px solid #19bd9a;
-	border-radius: 50px;
-	background: #FFF;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #19bd9a;
+    border-radius: 50px;
+    background: #FFF;
 }
-
-.carousel-control-prev-icon{
-	color: red;
+.carousel-indicators .active {
+    background: #19bd9a;
 }
-
-
+.btn {
+    border-radius: 30px;
+    background: none;
+    border: 1px solid #FFF;
+}
