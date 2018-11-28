@@ -1,9 +1,40 @@
+$blue: #007bff !default;
+$green: #19bd9a;
+$gray-900: #60606e;
+$link-hover-color: $green;
+$link-hover-decoration: none;
+$carousel-indicator-active-bg: $green;
+$font-size-base: 1rem;
+$h2-font-size: $font-size-base * 2.143;
+$component-active-bg: $green;
+$link-color: $gray-900;
+$border-radius: 0;
+$navbar-light-toggler-border-color: transparent;
 $light:#f3f3f3;
 $spacer: 1rem;
 $spacers: ();
 // stylelint-disable-next-line scss/dollar-variable-default
-$spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3), 50: 50px, 100: 100px, 125: 125px, 150: 150px), $spacers);
+$spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3), 15: 15px, 20: 20px, 25: 25px, 50: 50px, 100: 100px, 125: 125px, 150: 150px, 175: 175px, 250: 250px, ), $spacers);
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.whoweare-section {
+	background: url(../images/weare-section-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.arrow-div {
+	width: 36px;
+	height: 36px;
+	margin: 0 auto;
+}
+.arrow-img {
+	width: 25px;
+	height: 20px;
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
 .bor-b:active {
     border-bottom: 1px solid #8ddac9;
     font-size: 16px;
@@ -18,8 +49,11 @@ $spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 
 .carousel-indicators .active {
     background: #19bd9a;
 }
+<<<<<<< HEAD
 .btn {
     border-radius: 30px;
     background: none;
     border: 1px solid #FFF;
 }
+=======
+>>>>>>> bca1a331ecc134043aea2069c7849dc0f35117d8
